@@ -2,9 +2,10 @@
   "name": "bookshelf-api",
   "version": "1.0.0",
   "description": "API for storing book information using Hapi framework",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start-prod": "node ./src/server.js",
+    "start": "node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./src"
   },
